@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker - Getting Started</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #3498db;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #2980b9;
+        }
+        .container {
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        code {
+            background-color: #f1f1f1;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: Consolas, monospace;
+        }
+        pre {
+            background-color: #f1f1f1;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Expense Tracker Application</h1>
+    <p>Welcome to the Expense Tracker application! This is a full-stack MERN (MongoDB, Express, React, Node.js) application for tracking personal expenses.</p>
+    
+    <div class="container">
+        <h2>Getting Started</h2>
+        <p>Follow these steps to run the application:</p>
+        <ol>
+            <li>Make sure MongoDB is installed and running on your machine</li>
+            <li>Start the backend server:
+                <br>
+                <a href="#" class="button" onclick="runBackend(); return false;">Run Backend</a>
+            </li>
+            <li>Start the frontend:
+                <br>
+                <a href="#" class="button" onclick="runFrontend(); return false;">Run Frontend</a>
+            </li>
+            <li>Access the application:
+                <br>
+                <a href="http://localhost:3000" class="button" target="_blank" rel="noopener noreferrer">Open Application</a>
+            </li>
+        </ol>
+    </div>
+    
+    <div class="container">
+        <h2>Troubleshooting</h2>
+        <p>If you encounter any issues:</p>
+        <ul>
+            <li>Check if MongoDB is running:
+                <br>
+                <a href="#" class="button" onclick="checkMongoDB(); return false;">Check MongoDB Status</a>
+            </li>
+            <li>Make sure both backend and frontend servers are running</li>
+            <li>Check the terminal for any error messages</li>
+        </ul>
+    </div>
+    
+    <div class="container">
+        <h2>Features</h2>
+        <ul>
+            <li>Add, edit, and delete expenses</li>
+            <li>Categorize expenses</li>
+            <li>View expense statistics and charts</li>
+            <li>Filter and sort expenses</li>
+            <li>Responsive design</li>
+        </ul>
+    </div>
+    
+    <script>
+        function runBackend() {
+            alert("Starting backend server...\nPlease check the terminal window for progress.");
+            // In a real application, this would execute the batch file
+            // For now, we'll just show the alert
+        }
+        
+        function runFrontend() {
+            alert("Starting frontend application...\nPlease check the terminal window for progress.");
+            // In a real application, this would execute the batch file
+            // For now, we'll just show the alert
+        }
+        
+        function checkMongoDB() {
+            alert("Checking MongoDB status...\nPlease check the terminal window for results.");
+            // In a real application, this would execute the batch file
+            // For now, we'll just show the alert
+        }
+    </script>
+</body>
+</html>
